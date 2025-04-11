@@ -10,6 +10,8 @@ This project implements an AI-powered article summarizer using Google's Gemini A
 - **LangChain**: Framework for working with language models
 - **Google Generative AI (Gemini)**: AI model for text summarization
 - **dotenv**: Environment variable management
+- **React & Vite**: Frontend UI framework
+- **Express.js**: Backend server for API endpoints
 
 ### Key Components
 
@@ -27,9 +29,17 @@ This project implements an AI-powered article summarizer using Google's Gemini A
    - Human prompt template that accepts article content as input
 
 3. **Article Processing**
+
    - Reads article content from text files
    - Processes each article through the AI model
    - Exports summaries to separate text files
+
+4. **User Interface**
+   - React-based web application for easy interaction
+   - Text input area for pasting article content
+   - File upload functionality for .txt files
+   - Real-time summarization with loading indicators
+   - Responsive design for various screen sizes
 
 ## Selected Articles
 
@@ -58,6 +68,7 @@ The solution was tested through the following process:
    - Verified file reading functionality
    - Tested AI model connectivity and response generation
    - Validated summary export functionality
+   - Tested UI components and API integration
 
 3. **Output Validation**
    - Reviewed generated summaries for accuracy and completeness
@@ -66,7 +77,9 @@ The solution was tested through the following process:
 
 ## Usage
 
-To run the summarizer:
+### Command Line Interface
+
+To run the summarizer from the command line:
 
 1. Ensure you have a valid Google API key in your `.env` file
 2. Run the script with Node.js:
@@ -75,6 +88,48 @@ To run the summarizer:
    ```
 3. Check the generated `summary1.txt` and `summary2.txt` files for results
 
+### Web Interface
+
+To use the web interface:
+
+1. Navigate to the UI directory:
+
+   ```
+   cd ui
+   ```
+
+2. Install dependencies:
+
+   ```
+   npm install
+   ```
+
+3. Configure environment variables in the `.env` file:
+
+   ```
+   GOOGLE_API_KEY=your_google_api_key_here
+   PORT=3001
+   ```
+
+4. Run the application:
+
+   - For development: `npm run dev`
+   - For production: `npm run start`
+
+5. Open your browser and navigate to `http://localhost:3001`
+
+6. Enter text or upload a file, then click "Summarize" to generate a summary
+
+## Project Structure
+
+- `summaryAI.js`: Main script for command-line summarization
+- `article1.txt` & `article2.txt`: Sample articles for summarization
+- `summary1.txt` & `summary2.txt`: Generated summaries
+- `ui/`: React application directory
+  - `src/`: Source code for the React application
+  - `server.js`: Express server for API endpoints
+  - `package.json`: Dependencies and scripts
+
 ## Future Improvements
 
 Potential enhancements for the summarizer:
@@ -82,4 +137,5 @@ Potential enhancements for the summarizer:
 - Web scraping to directly fetch articles from URLs
 - Support for additional article formats
 - Customizable summary length and focus areas
-- Integration with a web interface for easier interaction
+- Enhanced UI with additional features like summary history
+- User authentication for saving summaries
