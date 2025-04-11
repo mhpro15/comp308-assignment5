@@ -1,0 +1,53 @@
+Accelerating climate action with AI
+Nov 20, 2023
+
+4 min read
+
+AI has the potential to mitigate 5-10% of global greenhouse gas emissions according to our new report with Boston Consulting Group.
+
+Yossi Matias, VP Engineering & Research and Crisis Response Lead
+Yossi Matias
+VP Engineering & Research and Crisis Response Lead
+Kate Brandt Headshot
+Kate Brandt
+Chief Sustainability Officer, Google
+Share
+illustration
+Later this month at COP28, global leaders will gather in Dubai to build momentum for climate action. The United Nations’ Intergovernmental Panel on Climate Change (IPCC) forecasts that the world needs to reduce emissions by 43% by 2030. We believe that artificial intelligence (AI) and collective action can help achieve this goal and create a sustainable future for everyone.
+
+Today, we released a report with Boston Consulting Group (BCG), which shows that AI has the potential to help mitigate 5-10% of global greenhouse gas (GHG) emissions by 2030 — the equivalent of the total annual emissions of the European Union. Here’s a look at how we’re building AI that can drive climate progress, while at the same time working to mitigate AI’s environmental impact.
+
+Accelerating climate action with AI
+AI can have a transformative effect on climate progress. Already, it is starting to address climate challenges in three key areas: providing people and organizations with better information to make more sustainable choices, delivering improved predictions to help adapt to climate change, and finding recommendations to optimize climate action for high-impact applications.
+
+Here’s a look at how, at Google, we’ve used AI to address climate challenges:
+
+Providing helpful information: People are looking for information to reduce their environmental footprint. Fuel-efficient routing in Google Maps uses AI to suggest routes that have fewer hills, less traffic, and constant speeds with the same or similar ETA. Since launching in October 2021, fuel-efficient routing is estimated to have helped prevent more than 2.4 million metric tons of CO2e emissions — the equivalent of taking approximately 500,000 fuel-based cars off the road for a year. 1
+Predicting climate-related events: Floods are the most common natural disaster, causing thousands of fatalities and disrupting the lives of millions every year. Since 2018, Google Research has been working on our flood forecasting initiative, which uses advanced AI and geospatial analysis to provide real-time flooding information so communities and individuals can prepare for and respond to riverine floods. Our Flood Hub platform is available to more than 80 countries, providing forecasts up to seven days in advance for 460 million people.
+Optimizing climate action: Contrails — the thin, white lines you sometimes see behind airplanes — have a surprisingly large impact on our climate. The 2022 IPCC report noted that contrail clouds account for roughly 35% of aviation's global warming impact — which is over half the impact of the world’s jet fuel. Google Research teamed up with American Airlines and Breakthrough Energy to bring together huge amounts of data — like satellite imagery, weather and flight path data — and used AI to develop contrail forecast maps to test if pilots can choose routes that avoid creating contrails. After these test flights, we found that the pilots reduced contrails by 54%.
+Managing the environmental impact of AI
+While scaling these applications of AI and finding new ways to use it to accelerate climate action is crucial, we need to build AI responsibly and manage the environmental impact associated with it.
+
+As AI is at an inflection point, predicting the future growth of energy use and emissions from AI compute in our data centers is challenging. Historically, data center energy consumption has grown much more slowly than demand for computing power. In 2022, global data center electricity consumption accounted for 1-1.3% of global final electricity demand.
+
+Making AI computing more efficient requires using proven methods to cut emissions, while also uncovering new ways to increase efficiency. To minimize the carbon footprint of AI workloads, we rely on tested practices that can reduce the energy required to train an AI model by up to 100 times and reduce associated emissions by up to 1,000 times. To support the next generation of AI advances, our Tensor Processing Units v4 is proven to be one of the fastest, most efficient and most sustainable ML infrastructure hubs in the world. Additionally, our data centers, where this AI computing takes place, are designed, built, and operated to maximize efficiency. A Google-owned and -operated data center is on average more than 1.5 times as energy efficient as a typical enterprise data center, and the average annual power usage effectiveness (PUE) for our global fleet of data centers was 1.10, compared with the industry average of 1.55.
+
+We take a climate-conscious approach to cooling our data centers, as we continue to champion responsible water use. Similar to a personal computer, data centers generate heat and must be cooled through air cooling, water cooling, refrigerants or some combination of these solutions. For our data centers, we aim to support hyperlocal factors and decisions, including hydrology, geography, energy and emissions factors. Water may be the most efficient means of cooling in many places and, when used responsibly, can play an important role in reducing emissions.
+
+
+
+Quote from James
+Quote from Lila
+Quote from Jeff
+Quote from Ben
+1
+2
+3
+4
+Working together to drive positive climate impacts
+Creating a sustainable future requires collective action from policymakers, government officials, city planners, business leaders and individuals. Policymakers, in particular, have a central role to play both in harnessing the potential of AI for climate action and in ensuring its sustainable and equitable use. Policymakers can make a difference in accelerating three outcomes:
+
+Enabling AI for climate progress by encouraging data sharing, ensuring affordable technology access, building awareness, and supporting the creation and expansion of AI and climate-related upskilling programs for corporations.
+Accelerating the deployment of AI for climate by defining public and private sector priorities, delivering on public sector use cases, and encouraging private sector action.
+Promoting environmentally and socially responsible deployment of AI.
+Together, we can boldly and responsibly develop more tools and products that harness the power of AI to accelerate the climate progress we need.
